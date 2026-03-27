@@ -1,10 +1,10 @@
 export default function Brands() {
   const brands = [
-    { name: "G-TECH", desc: "Equipamentos de medição e saúde", logo: "/brands/g-tech.jpg" },
-    { name: "FIBRASCA", desc: "Travesseiros e bem-estar", logo: "/brands/fibrasca.jpg" },
-    { name: "BALMAK", desc: "Balanças e medição de precisão", logo: "/brands/balmak.jpg" },
-    { name: "ORTOMIX", desc: "Produtos ortopédicos e saúde", logo: "/brands/ortomix.jpg" },
-    { name: "CINTA MODERNA", desc: "Modeladores e cintas corporais", logo: "/brands/cinta-moderna.jpg" }
+    { name: "G-TECH", desc: "Equipamentos de medição e saúde", logo: "/brands/g-tech.png" },
+    { name: "FIBRASCA", desc: "Travesseiros e bem-estar", logo: "/brands/fibrasca.png" },
+    { name: "BALMAK", desc: "Balanças e medição de precisão", logo: "/brands/balmak.png" },
+    { name: "ORTOMIX", desc: "Produtos ortopédicos e saúde", logo: "/brands/ortomix.png" },
+    { name: "CINTA MODERNA", desc: "Modeladores e cintas corporais", logo: "/brands/cinta-moderna.png" }
   ];
 
   return (

@@ -16,12 +16,12 @@ export default function Hero() {
             Atendimento Exclusivo para RJ e ES
           </div>
           
-          {/* Logo Area */}
-          <div className="relative w-full max-w-[280px] h-[140px] bg-white rounded-3xl overflow-hidden shadow-[0_0_40px_rgba(255,255,255,0.1)] border border-slate-700 mx-auto">
+          {/* Logo Area - Destaque com Fundo Transparente */}
+          <div className="relative mb-4 group transform transition-all duration-500 hover:scale-105">
             <img 
-              src="/etp-logo.jpg" 
+              src="/etp-logo.png" 
               alt="ETP Representação Comercial"
-              className="absolute top-0 left-0 w-full h-[140px] object-contain p-4"
+              className="w-full max-w-[340px] md:max-w-[420px] h-auto object-contain drop-shadow-[0_0_30px_rgba(255,255,255,0.15)]"
             />
           </div>
           
